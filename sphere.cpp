@@ -5,13 +5,13 @@
 Hit Sphere::Intersection(const Ray& ray, int part) const
 {
     TODO;
-    return {0,0,0};
+    return {this,0,0};
 }
 
 vec3 Sphere::Normal(const vec3& point, int part) const
 {
     vec3 normal;
-    TODO; // compute the normal direction
+    normal = (point - center) / radius;
     return normal;
 }
 
