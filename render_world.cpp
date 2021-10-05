@@ -3,6 +3,7 @@
 #include "object.h"
 #include "light.h"
 #include "ray.h"
+#include <limits>
 
 extern bool disable_hierarchy;
 
@@ -22,15 +23,25 @@ Render_World::~Render_World()
 // to ensure that hit.dist>=small_t.
 Hit Render_World::Closest_Intersection(const Ray& ray)
 {
-    TODO;
-    return {};
+    double min_t = std::numeric_limits<double>::max();
+    Hit closest_hit = {0, min_t, 0};
+    for (auto i = 0; i < objects.size(); i++){
+        Hit curr_hit = objects.at(i)->Intersection(ray, -1);
+        if (curr_hit.dist < closest_hit.dist && curr_hit.dist > small_t) {
+            closest_hit = curr_hit;
+        }
+    }
+    return closest_hit;
 }
 
 // set up the initial view ray and call
 void Render_World::Render_Pixel(const ivec2& pixel_index)
 {
-    TODO; // set up the initial view ray here
-    Ray ray;
+    vec3 endpoint = camera.position;
+    vec3 pixel_pos = camera.World_Position(pixel_index);
+    vec3 ray_dir = (pixel_pos - endpoint).normalized();
+
+    Ray ray = Ray(pixel_pos, ray_dir);
     vec3 color=Cast_Ray(ray,1);
     camera.Set_Pixel(pixel_index,Pixel_Color(color));
 }
@@ -50,7 +61,16 @@ void Render_World::Render()
 vec3 Render_World::Cast_Ray(const Ray& ray,int recursion_depth)
 {
     vec3 color;
-    TODO; // determine the color here
+    Hit intersect = Closest_Intersection(ray);
+    if (intersect.object != nullptr) {
+        // ray, coord, normal, recursion depth
+        vec3 point = ray.Point(intersect.dist);
+        vec3 normal = intersect.object->Normal(point, -1);
+        color = intersect.object->material_shader->Shade_Surface(ray, point, normal, recursion_depth);
+    } 
+    else {
+        color = background_shader->Shade_Surface(ray, vec3(0, 0, 0), vec3(0, 0, 0), 0);
+    }
     return color;
 }
 
