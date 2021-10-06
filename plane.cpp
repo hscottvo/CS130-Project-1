@@ -10,6 +10,7 @@
 Hit Plane::Intersection(const Ray& ray, int part) const
 {
     double dir_inner_prod = dot(ray.direction, normal);
+    // if parallel with plane and not on plane
     if ((dir_inner_prod == 0) && (dot((ray.endpoint - x1), normal))){
         return {0, 0, 0};
     } else {
