@@ -44,5 +44,6 @@ vec3 Camera::World_Position(const ivec2& pixel_index)
     vec3 result;
     vec2 c = Cell_Center(pixel_index);
     result = film_position + (horizontal_vector * c[0]) + (vertical_vector * c[1]);
+    // TODO: Check if pixels are indexed by (x, y) or (row, column)
     return result;
 }
