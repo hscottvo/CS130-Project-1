@@ -1,0 +1,258 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/box.cpp
+limits
+-
+box.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/box.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/box.h
+ray.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/ray.h
+misc.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/misc.h
+limits
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/camera.cpp
+camera.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/camera.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/camera.h
+algorithm
+-
+vec.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/vec.h
+misc.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/misc.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/dump_png.cpp
+png.h
+-
+cassert
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/flat_shader.cpp
+flat_shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/flat_shader.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/flat_shader.h
+shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/shader.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/hierarchy.cpp
+algorithm
+-
+hierarchy.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/hierarchy.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/hierarchy.h
+object.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/hit.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/light.h
+math.h
+-
+vector
+-
+iostream
+-
+limits
+-
+vec.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/vec.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/main.cpp
+render_world.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/render_world.h
+object.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+iostream
+-
+cstdio
+-
+unistd.h
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/mesh.cpp
+mesh.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/mesh.h
+fstream
+-
+string
+-
+limits
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/mesh.h
+object.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/misc.h
+iostream
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+vector
+-
+vec.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/vec.h
+hit.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/hit.h
+box.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/box.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/parse.cpp
+map
+-
+sstream
+-
+string
+-
+flat_shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/flat_shader.h
+mesh.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/mesh.h
+phong_shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/phong_shader.h
+plane.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/plane.h
+point_light.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/point_light.h
+reflective_shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/reflective_shader.h
+render_world.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/render_world.h
+sphere.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/sphere.h
+map
+-
+sstream
+-
+string
+-
+iostream
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/phong_shader.cpp
+light.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/light.h
+object.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+phong_shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/phong_shader.h
+ray.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/ray.h
+render_world.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/render_world.h
+iostream
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/phong_shader.h
+shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/shader.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/plane.cpp
+plane.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/plane.h
+hit.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/hit.h
+ray.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/ray.h
+cfloat
+-
+limits
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/plane.h
+object.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/point_light.h
+math.h
+-
+vector
+-
+iostream
+-
+limits
+-
+vec.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/vec.h
+light.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/light.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/ray.h
+vec.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/vec.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/reflective_shader.cpp
+reflective_shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/reflective_shader.h
+ray.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/ray.h
+render_world.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/render_world.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/reflective_shader.h
+algorithm
+-
+shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/shader.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/render_world.cpp
+render_world.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/render_world.h
+flat_shader.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/flat_shader.h
+object.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+light.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/light.h
+ray.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/ray.h
+limits
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/render_world.h
+vector
+-
+camera.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/camera.h
+hierarchy.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/hierarchy.h
+object.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/shader.h
+vec.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/vec.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/sphere.cpp
+sphere.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/sphere.h
+ray.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/ray.h
+cmath
+-
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/sphere.h
+object.h
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/object.h
+
+/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/vec.h
+cmath
+-
+iostream
+-
+cassert
+-
+
