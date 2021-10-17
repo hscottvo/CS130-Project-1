@@ -15,9 +15,9 @@ Hit Sphere::Intersection(const Ray& ray, int part) const
     double t_plus = neg_dot + sqrt(det); 
     double t_minus = neg_dot - sqrt(det); 
 
-    if (t_minus > small_t) {
+    if (t_plus >= t_minus && t_minus > small_t) {
         return {this, t_minus, -1};
-    } else if (t_plus > small_t) {
+    } else if (t_plus < t_minus && t_plus > small_t) {
         return {this, t_plus, -1};
     }
     return {0, 0, 0};
