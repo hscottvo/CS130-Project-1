@@ -1,3 +1,0 @@
-/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/CMakeFiles/ray_tracer.dir
