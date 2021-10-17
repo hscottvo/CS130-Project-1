@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code
+# Install script for directory: /mnt/c/Users/Scott/Desktop/Fall 2021/CS_130/Labs/Project_1/Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/Scott/Desktop/Fall 2021/CS 130/Labs/Project 1/Code/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Scott/Desktop/Fall 2021/CS_130/Labs/Project_1/Code/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
