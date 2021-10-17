@@ -2,3 +2,7 @@
 .sconsign.dblite
 grading/
 CMakeFiles
+.vscode/
+Checkpoint 1.zip
+diff.png
+run.sh
