@@ -12,14 +12,16 @@ bool Box::Intersection(const Ray& ray) const
 Box Box::Union(const Box& bb) const
 {
     Box box;
-    TODO;
+    box.lo = vec3(std::min(lo[0], bb.lo[0]), std::min(lo[1], bb.lo[1]), std::min(lo[2], bb.lo[2]));
+    box.hi = vec3(std::max(lo[0], bb.lo[0]), std::max(lo[1], bb.lo[1]), std::max(lo[2], bb.lo[2]));
     return box;
 }
 
 // Enlarge this box (if necessary) so that pt also lies inside it.
 void Box::Include_Point(const vec3& pt)
 {
-    TODO;
+    lo = vec3(std::min(lo[0], pt[0]), std::min(lo[1], pt[1]), std::min(lo[2], pt[2]));
+    hi = vec3(std::max(lo[0], pt[0]), std::max(lo[1], pt[1]), std::max(lo[2], pt[2]));
 }
 
 // Create a box to which points can be correctly added using Include_Point.

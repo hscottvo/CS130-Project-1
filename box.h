@@ -4,6 +4,7 @@
 #include "ray.h"
 #include "misc.h"
 #include <limits>
+#include <algorithm>
 
 class Box
 {
